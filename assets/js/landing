@@ -1,0 +1,24 @@
+// landing page
+
+// have logo appear upon scrolling
+
+$(document).ready(function(){
+         //hides them logo when the page loads
+         $("#logo").hide();
+    });
+
+    $(document).scroll(function () {
+    var y = $(document).scrollTop(),
+       header = $("#logo");
+
+
+    if (y >= 100) {
+        //show the image and make the header fixed
+        header.addClass('fixed');
+        header.show();
+    } else {
+        //put the header in original position and hide image
+        header.removeClass('fixed');
+        header.hide();
+    }
+    });

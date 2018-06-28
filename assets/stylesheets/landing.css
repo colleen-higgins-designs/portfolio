@@ -1,0 +1,343 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+/* 				landing page				*/
+
+/*    font styles   */
+
+body {
+	font: 300 18px/24px "Raleway", "AppleGothic", Arial, sans-sarif;
+	color: #FBFEFE;
+	background-color: #CAE4DB;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+
+.greeting {
+	font: 400 90px/120px "Dancing Script", "SignPainter", Arial, sans-sarif;
+}
+
+.landing {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.landing-img {
+	width: 150px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+header {
+	background-color: #CAE4DB;
+	width: 100%;
+}
+
+#logo {
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+#logo img {
+	width: 200px;
+}
+
+#logo.show {
+	opacity: 100;
+}
+
+.about {
+	text-align: left;
+	padding: 50px 0;
+}
+
+.section-title-about {
+	width: 100%; 
+   	border-bottom: 1px solid #fff; 
+   	line-height: 0.1em;
+   	margin: 10px 0 50px;
+}
+
+.section-title-about span { 
+    background: #CAE4DB; 
+    padding: 0 10px; 
+}
+
+#about-me-image {
+	width: 300px;
+	display: inline-block;
+
+}
+
+.about-picture-description {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-image {
+	max-width: 30%;
+}
+
+.about-facts {
+	width: 66%;
+	vertical-align: middle;
+	margin-right: 5%;
+}
+
+.school-dog-facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.school-fact, 
+.dog-fact {
+	width: 40%;
+	margin-bottom: 5%;
+}
+
+.fact-start {
+	color: #00303f;
+}
+
+.fact-end {
+	color: #7A9D96;
+}
+
+/*       past work section        */
+
+.section-title-work {
+	width: 100%; 
+   	border-bottom: 1px solid #00303f; 
+   	line-height: 0.1em;
+   	margin: 50px 0 20px;
+   	color: #00303f;
+}
+
+.section-title-work span { 
+    background: #CAE4DB; 
+    padding: 0 10px; 
+}
+
+.past-work {
+	background-color: #fff;
+	color: #00303f;
+	text-align: left; 
+}
+
+.col-1-3 {
+	background-color: #EDDBCD;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5% 0;
+}
+
+.work-img {
+	width: 70%;
+	padding: 0 15%;
+}
+
+.w-connection-img {
+	width: 40%;
+	padding: 0 30%;
+}
+
+.work-description {
+	max-width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5%;
+}
+
+.work-description h3,
+.work-description p {
+	margin-bottom: .5em;
+}
+
+/* Modals */
+
+#knitted-joys-trigger,
+#breakthrough-gb-trigger,
+#w-connection-trigger {
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #7A9D96;
+	margin-top: 1em;
+}
+
+#knitted-joys-trigger:hover,
+#breakthrough-gb-trigger:hover,
+#w-connection-trigger:hover {
+	opacity: 0.7;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-screenshot {
+	margin: auto;
+    display: block;
+    width: 80%;
+    min-width: 700px;
+}
+
+#knitted-joys-caption,
+#breakthrough-gb-caption,
+#w-connection-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-screenshot, 
+#knitted-joys-caption, 
+#breakthrough-gb-caption,
+#w-connection-caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0.7)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*   Contact section   */
+
+footer {
+	padding: 20px;
+	background-color: #00303f;
+	color: #EDDBCD;
+}
+
+.contact-logo img {
+	height: 350px;
+}
+
+.section-title-contact {
+	width: 100%; 
+   	border-bottom: 1px solid #eddbcd; 
+   	line-height: 0.1em;
+   	margin: 30px 0 30px;
+   	color: #eddbcd;
+}
+
+.section-title-contact span { 
+    background: #00303f; 
+    padding: 0 10px; 
+}
+
+.contact-items {
+	padding: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.email,
+.phone-number {
+	padding-top: 10%;
+}
