@@ -215,7 +215,8 @@ header {
 
 #knitted-joys-trigger,
 #breakthrough-gb-trigger,
-#w-connection-trigger {
+#w-connection-trigger,
+#geller-coaching-trigger {
 	cursor: pointer;
 	transition: 0.3s;
 	font-size: 14px;
@@ -226,7 +227,8 @@ header {
 
 #knitted-joys-trigger:hover,
 #breakthrough-gb-trigger:hover,
-#w-connection-trigger:hover {
+#w-connection-trigger:hover,
+#geller-coaching-trigger:hover {
 	opacity: 0.7;
 }
 
@@ -253,7 +255,8 @@ header {
 
 #knitted-joys-caption,
 #breakthrough-gb-caption,
-#w-connection-caption {
+#w-connection-caption,
+#geller-coaching-caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -267,7 +270,8 @@ header {
 .modal-screenshot, 
 #knitted-joys-caption, 
 #breakthrough-gb-caption,
-#w-connection-caption { 
+#w-connection-caption,
+#geller-coaching-caption { 
     animation-name: zoom;
     animation-duration: 0.6s;
 }
