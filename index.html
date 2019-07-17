@@ -1,197 +1,246 @@
 <!DOCTYPE html>
 
-<html lang= "en">
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dacing+Script|Raleway|Raleway:600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/stylesheets/landing.css"
+    />
+    <meta charset="utf-8" />
+    <title>Colleen Higgins Designs</title>
+  </head>
 
-	<head>
-		<link href="https://fonts.googleapis.com/css?family=Dacing+Script|Raleway|Raleway:600" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/stylesheets/landing.css">
-		<meta charset="utf-8">
-		<title>Colleen Higgins Designs</title>
-	</head>
-	
-	<body>
+  <body>
+    <header id="logo">
+      <!-- 		logo		-->
+      <img src="assets/images/trinity-knot-logo.png" />
+    </header>
 
-		<header id="logo">
-			
-			<!-- 		logo		-->
-			<img src="assets/images/trinity-knot-logo.png">
+    <!--       opening/landing section 			-->
+    <section class="landing">
+      <h1 class="greeting">Hello, I'm Colleen Higgins.</h1>
+      <img class="landing-img" src="assets/images/trinity-knot-landing.png" />
+      <h2>I design and build websites</h2>
+    </section>
 
-		</header>
+    <!--  			a bit about me				-->
 
-		<!--       opening/landing section 			-->
-		<section class="landing">
-			<h1 class="greeting">Hello, I'm Colleen Higgins.</h1>
-			<img class="landing-img" src="assets/images/trinity-knot-landing.png">
-			<h2>I design and build websites</h2>
-		</section>
+    <section class="about">
+      <h2 class="section-title"><span>a bit about me </span></h2>
 
-		<!--  			a bit about me				-->
+      <!-- 			add image here 		-->
 
-		<section class="about">
+      <div class="about-picture-description">
+        <div class="about-image">
+          <img id="about-me-image" src="assets/images/about-me-image.png" />
+        </div>
 
-			<h2 class="section-title"><span>a bit about me </span></h2>
+        <div class="about-facts">
+          <div class="school-dog-facts">
+            <div class="school-fact">
+              <p class="fact-start">
+                I graduated from
+              </p>
+              <p class="fact-end">
+                Cornell University with a degree in engineering
+              </p>
+            </div>
+            <div class="dog-fact">
+              <p class="fact-start">
+                When I’m not workng
+              </p>
+              <p class="fact-end">
+                I'm learning new skills, experimenting with designs, or playing
+                with my giant puppy.
+              </p>
+            </div>
+          </div>
+          <p class="fact-start">
+            I am experienced with:
+          </p>
+          <p class="fact-end">
+            WordPress • Wireframing • Mockups • JavaScript • CSS3 • Php • HTML5
+          </p>
+        </div>
+      </div>
 
-			<!-- 			add image here 		-->
+      <h2 class="section-title"><span>some past work</span></h2>
+    </section>
 
-			<div class="about-picture-description"> 
-				<div class="about-image">
-					<img id="about-me-image" src="assets/images/about-me-image.png">
-				</div>
+    <!--  			past work 					-->
 
-				<div class="about-facts">
-					<div class="school-dog-facts">
-						<div class="school-fact">
-							<p class="fact-start">
-								I graduated from 
-							</p>
-							<p class="fact-end">
-								Cornell University with a degree in engineering
-							</p>
-						</div>
-						<div class="dog-fact">
-							<p class="fact-start">
-								When I’m not workng
-							</p>
-							<p class="fact-end">
-								 I'm learning new skills, experimenting with designs, or playing with my giant puppy.
-							</p>
-						</div>
-					</div>
-					<p class="fact-start">
-						I am experienced with:
-					</p>
-					<p class="fact-end">
-						WordPress • Wireframing • Mockups • JavaScript • CSS3 • Php • HTML5
-					</p>
-				</div>
-			</div>
+    <section class="past-work">
+      <!-- 		Knitted Joys 		-->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <img class="work-img" src="assets/images/knitted-joys-teaser.png" />
+        </div>
+        <div class="work-description">
+          <h3>Knitted Joys</h3>
+          <p>
+            <strong>My Contribution:</strong> Designed and built a prototype
+            website for selling knit goods and patterns.
+          </p>
+          <!-- modal trigger -->
+          <p id="knitted-joys-trigger">Preview</p>
 
-			<h2 class="section-title"><span>some past work</span></h2>
+          <!--   Modal  -->
+          <div id="knitted-joys-modal" class="modal">
+            <span class="close">&times;</span>
 
-		</section>
+            <img
+              class="modal-screenshot"
+              id="knitted-joys-splashpage"
+              src="assets/images/knitted-joys-splashpage.png"
+            />
 
-		<!--  			past work 					-->
+            <div id="knitted-joys-caption">
+              Designed and built a prototype website for selling knit goods and
+              patterns.
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<section class="past-work">
-			
+      <!-- 		Breakthrough		-->
 
-			<!-- 		Knitted Joys 		-->
-				<div class="work-teaser">
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <img class="work-img" src="assets/svg/breakthrough-img.svg" />
+        </div>
 
-					<div class="col-1-3">
-						<img class="work-img" src="assets/images/knitted-joys-teaser.png">
-					</div>
-					<div class="work-description">
-						<h3>Knitted Joys</h3>
-						<p>
-							<strong>My Contribution:</strong> Designed and built a prototype website for selling knit goods and patterns.
-						</p>
-						<!-- modal trigger -->
-						<p id="knitted-joys-trigger">Preview</p>
+        <div class="work-description">
+          <h3>Breakthrough Greater Boston</h3>
+          <p>
+            Breakthrough Greater Boston prepares low-income students for success
+            in college and trains the next generation of urban teachers using a
+            unique Students Teaching Students model.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Migrated original website to a new
+            platform and integrated content with new designs and layouts, based
+            on template provided.
+          </p>
+          <!-- modal trigger -->
+          <p id="breakthrough-gb-trigger">Preview</p>
 
-						<!--   Modal  -->
-						<div id="knitted-joys-modal" class="modal">
-							
-							<span class="close">&times;</span>
+          <!--   Modal  -->
+          <div id="breakthrough-gb-modal" class="modal">
+            <span class="close">&times;</span>
 
-							<img class="modal-screenshot" id="knitted-joys-splashpage" src="assets/images/knitted-joys-splashpage.png">
+            <img
+              class="modal-screenshot"
+              id="breakthrough-gb-splashpage"
+              src="assets/images/breakthrough-gb-splashpage.png"
+            />
 
-							<div id="knitted-joys-caption">
-								Designed and built a prototype website for selling knit goods and patterns.
-							</div>
+            <div id="breakthrough-gb-caption">
+              Migrated original website to a new platform and integrated content
+              with new designs and layouts, based on template provided.
+            </div>
+          </div>
+        </div>
+      </div>
 
-						</div>
-					</div>
-					
-				</div>
+      <!-- 		W Connection		-->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <img
+            class="w-connection-img"
+            src="assets/images/w-connection-teaser.png"
+          />
+        </div>
+        <div class="work-description">
+          <h3>The W Connection</h3>
+          <p>
+            The W Connection provides peer-to-peer emotional support from women
+            of all ages who understand what it means to lose a spouse.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Located, diagnosed, and debugged
+            errors in PHP code.
+          </p>
+          <!-- modal trigger -->
+          <p id="w-connection-trigger">Preview</p>
 
-			<!-- 		Breakthrough		-->
+          <!--   Modal  -->
+          <div id="w-connection-modal" class="modal">
+            <span class="close">&times;</span>
 
-				<div class="work-teaser">
+            <img
+              class="modal-screenshot"
+              id="w-connection-splashpage"
+              src="assets/images/w-connection-splashpage.png"
+            />
 
-					<div class="col-1-3">
-						<img class="work-img" src="assets/svg/breakthrough-img.svg"> 
-					</div>
-					
-					<div class="work-description">
-						<h3>Breakthrough Greater Boston</h3>
-						<p>
-							 Breakthrough Greater Boston prepares low-income students for success in college and trains the next generation of urban
-							teachers using a unique Students Teaching Students model.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Migrated original website to a new platform and integrated content with new designs and layouts, based on template provided.
-						</p>
-						<!-- modal trigger -->
-						<p id="breakthrough-gb-trigger">Preview</p>
+            <div id="w-connection-caption">
+              Located, diagnosed, and debugged errors in PHP code.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Geller Coaching -->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <img
+            class="geller-coaching-img"
+            src="assets/images/geller-coaching-teaser.png"
+          />
+        </div>
+        <div class="work-description">
+          <h3>Geller Coaching</h3>
+          <p>
+            Geller Coaching has an intuitive style of coaching that enables
+            individuals to attain the success they are capable of achieving, by
+            identifying obstacles and strengths to redefine what is possible.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Redesigned website and created a
+            custom WordPress theme.
+          </p>
+          <p>
+            <strong>Relevant Skills:</strong> Wordpress Theme Development, PHP,
+            CSS3, Constant Contact integration
+          </p>
+          <!-- modal trigger -->
+          <p id="geller-coaching-trigger">Preview</p>
 
-						<!--   Modal  -->
-						<div id="breakthrough-gb-modal" class="modal">
-							
-							<span class="close">&times;</span>
+          <!--   Modal  -->
+          <div id="geller-coaching-modal" class="modal">
+            <span class="close">&times;</span>
 
-							<img class="modal-screenshot" id="breakthrough-gb-splashpage" src="assets/images/breakthrough-gb-splashpage.png">
+            <img
+              class="modal-screenshot"
+              id="geller-coaching-splashpage"
+              src="assets/images/geller-coaching-splashpage.png"
+            />
 
-							<div id="breakthrough-gb-caption">
-								Migrated original website to a new platform and integrated content with new designs and layouts, based on template provided.
-							</div>
+            <div id="geller-coaching-caption">
+              Redesigned website and created a custom WordPress theme.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-						</div>
-					</div>
-					
+    <!-- 			contact me 				-->
+    <footer>
+      <h2 class="section-title-contact"><span>contact me</span></h2>
+      <div class="contact-items">
+        <p>
+          <strong class="contact-label">email: </strong
+          >colleenhigginsdesigns@gmail.com
+        </p>
+        <p><strong class="contact-label">phone: </strong>(631) 629-5306</p>
+      </div>
+      <img class="contact-logo" src="assets/images/trinity-knot-contact.png" />
+    </footer>
+  </body>
 
-				</div>
-
-			<!-- 		W Connection		-->
-				<div class="work-teaser">
-					
-					<div class="col-1-3">
-						<img class="w-connection-img" src="assets/images/w-connection-teaser.png"> 
-					</div>
-					<div class="work-description">
-						
-						<h3>The W Connection</h3>
-						<p>
-							The W Connection provides peer-to-peer emotional support from women of all ages who understand what it means to lose a spouse.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Located, diagnosed, and debugged errors in PHP code. 
-						</p>
-						<!-- modal trigger -->
-						<p id="w-connection-trigger">Preview</p>
-
-						<!--   Modal  -->
-						<div id="w-connection-modal" class="modal">
-							
-							<span class="close">&times;</span>
-
-							<img class="modal-screenshot" id="w-connection-splashpage" src="assets/images/w-connection-splashpage.png">
-
-							<div id="w-connection-caption">
-								 Located, diagnosed, and debugged errors in PHP code.
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-
-		</section>
-
-		<!-- 			contact me 				-->
-		<footer>
-
-			<h2 class="section-title-contact"><span>contact me</span></h2>
-			<div class="contact-items">
-				<p><strong class="contact-label">email: </strong>colleenhigginsdesigns@gmail.com</p> 
-				<p><strong class="contact-label">phone: </strong>(631) 629-5306</p>
-			</div>
-			<img class="contact-logo" src="assets/images/trinity-knot-contact.png">
-
-		</footer>
-
-	</body>
-
-	<script src="assets/js/landing.js"></script>
-
+  <script src="assets/js/landing.js"></script>
 </html>
