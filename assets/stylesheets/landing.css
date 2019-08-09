@@ -210,6 +210,26 @@ header {
   padding: 0 10px;
 }
 
+.subsection-left {
+  background-color: #eddbcd;
+  width: 37%;
+}
+
+.subsection-title {
+  font: 400 3rem 'Dancing Script', 'SignPainter', Arial, sans-sarif;
+  text-align: center;
+  width: 100%;
+  /* border-bottom: 1px solid #00303f; */
+  line-height: 0.1em;
+  margin: 50px 0 50px;
+  color: #da8a72;
+}
+
+.subsection-title span {
+  background: #fbfefe;
+  padding: 0 10px;
+}
+
 #about-me-image {
   width: 300px;
   display: inline-block;
