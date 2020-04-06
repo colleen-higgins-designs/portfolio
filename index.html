@@ -1,239 +1,456 @@
 <!DOCTYPE html>
 
-<html lang= "en">
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dacing+Script|Raleway|Raleway:600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/stylesheets/landing.css"
+    />
+    <meta charset="utf-8" />
+    <title>Colleen Higgins Designs</title>
+  </head>
 
-	<head>
-		<link href="https://fonts.googleapis.com/css?family=Dacing+Script|Raleway|Raleway:600" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/stylesheets/landing.css">
-		<meta charset="utf-8">
-		<title>Colleen Higgins Designs</title>
-	</head>
+  <body>
+    <header id="logo">
+      <!-- 		logo		-->
+      <h2>Colleen Higgins Designs</h2>
+    </header>
 
-	<body>
+    <!--       opening/landing section 			-->
+    <section class="landing">
+      <h1 class="greeting">Hello, I'm Colleen Higgins.</h1>
+      <h2>I design and build websites</h2>
+    </section>
 
-		<header id="logo">
+    <!--  			a bit about me				-->
 
-			<!-- 		logo		-->
-			<h2>Colleen Higgins Designs</h2>
+    <section class="about">
+      <h2 class="section-title"><span>a bit about me </span></h2>
 
-		</header>
+      <!-- 			add image here 		-->
 
-		<!--       opening/landing section 			-->
-		<section class="landing">
-			<h1 class="greeting">Hello, I'm Colleen Higgins.</h1>
-			<h2>I design and build websites</h2>
-		</section>
+      <div class="about-picture-description">
+        <div class="about-image">
+        </div>
 
-		<!--  			a bit about me				-->
+        <div class="about-facts">
+          <div class="school-dog-facts">
+            <div class="school-fact">
+              <p class="fact-start">
+                I graduated from
+              </p>
+              <p class="fact-end">
+                Cornell University with a degree in engineering
+              </p>
+            </div>
+            <div class="dog-fact">
+              <p class="fact-start">
+                When I’m not workng
+              </p>
+              <p class="fact-end">
+                I'm learning new skills (currently Python and Typescript), rock
+                climbing, or playing with my puppy.
+              </p>
+            </div>
+          </div>
+          <p class="fact-start">
+            I am skilled in:
+          </p>
+          <p class="fact-end">
+            JavaScript • React • Redux • Express • Node • SQL • Sequelize • CSS3
+            • HTML5 • Python • PHP
+          </p>
+        </div>
+      </div>
 
-		<section class="about">
+      <h2 class="section-title"><span>some past work</span></h2>
+    </section>
 
-			<h2 class="section-title"><span>a bit about me </span></h2>
+    <!--  			past work 					-->
 
-			<!-- 			add image here 		-->
-
-			<div class="about-picture-description">
-				<div class="about-image">
-					<!-- <img id="about-me-image" src="assets/images/about-me-image.jpg"> -->
-				</div>
-
-				<div class="about-facts">
-					<div class="school-dog-facts">
-						<div class="school-fact">
-							<p class="fact-start">
-								I graduated from
-							</p>
-							<p class="fact-end">
-								Cornell University with a degree in engineering
-							</p>
-						</div>
-						<div class="dog-fact">
-							<p class="fact-start">
-								When I’m not workng
-							</p>
-							<p class="fact-end">
-								 I'm learning new skills, experimenting with designs, or playing with my giant puppy.
-							</p>
-						</div>
-					</div>
-					<p class="fact-start">
-						I am experienced with:
-					</p>
-					<p class="fact-end">
-						WordPress • Wireframing • Mockups • JavaScript • CSS3 • Php • HTML5
-					</p>
-				</div>
+    <section class="past-work">
+      <div class="work-teaser">
+        <div class="subsection-left"></div>
+        <h3 class="subsection-title"><span>contract work</span></h3>
 			</div>
 
-			<h2 class="section-title"><span>some past work</span></h2>
+			<!-- GiveGab -->
 
-		</section>
+			<div class="work-teaser">
+        <div class="col-1-3">
+					<h3>GiveGab</h3>
+        </div>
 
-		<!--  			past work 					-->
+        <div class="work-description">
+          <p>
+						GiveGab is the #1 digital solution for giving days and year-round
+						fundraising, making it easy for development professionals to be great at their jobs.
+          </p>
+          <p>
+						<strong>My Contribution:</strong> Helped build a digital fundraising
+						solution with custom-tailored products for nonprofits, educational
+						institutions, and community foundations.
+          </p>
+          <a
+            href="http://www and site link.givegab.com"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
+        </div>
+      </div>
 
-		<section class="past-work">
+			<!-- ZevRoss -->
 
+			<div class="work-teaser">
+        <div class="col-1-3">
+					<h3>Zevross Spatial Analytics</h3>
+        </div>
 
-			<!-- 		Knitted Joys 		-->
-				<div class="work-teaser">
-
-					<div class="col-1-3">
-						<h3>Knitted Joys</h3>
-					</div>
-					<div class="work-description">
-						<p>
-							Knitted Joys is a blog and ecommerce site for knitted goods and patterns.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Designed and built a prototype website for selling knit goods and patterns.
-						</p>
-						<p>
-							<strong>Relevant Skills:</strong> Wireframing, Sketch, HTML5, CSS3, JavaScript
-						</p>
-						<!-- modal trigger -->
-						<p id="knitted-joys-trigger">Preview</p>
-
-						<!--   Modal  -->
-						<div id="knitted-joys-modal" class="modal">
-
-							<span class="close">&times;</span>
-
-							<img class="modal-screenshot" id="knitted-joys-splashpage" src="assets/images/knitted-joys-splashpage.png">
-
-							<div id="knitted-joys-caption">
-								Designed and built a prototype website for selling knit goods and patterns.
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-
-			<!-- 		Breakthrough		-->
-
-				<div class="work-teaser">
-
-					<div class="col-1-3">
-						<h3>Breakthrough Greater Boston</h3>
-					</div>
-
-					<div class="work-description">
-						<p>
-							Breakthrough Greater Boston prepares low-income students for success in college and trains the next generation of urban
-							teachers using a unique Students Teaching Students model.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Migrated original website to a new platform and integrated content with new designs and layouts, based on template provided.
-						</p>
-						<p>
-							<strong>Relevant Skills:</strong> Wordpress, CSS
-						</p>
-						<!-- modal trigger -->
-						<p id="breakthrough-gb-trigger">Preview</p>
-
-						<!--   Modal  -->
-						<div id="breakthrough-gb-modal" class="modal">
-
-							<span class="close">&times;</span>
-
-							<img class="modal-screenshot" id="breakthrough-gb-splashpage" src="assets/images/breakthrough-gb-splashpage.png">
-
-							<div id="breakthrough-gb-caption">
-								Migrated original website to a new platform and integrated content with new designs and layouts, based on template provided.
-							</div>
-
-						</div>
-					</div>
-
-
-				</div>
-
-			<!-- 		W Connection		-->
-				<div class="work-teaser">
-
-					<div class="col-1-3">
-						<h3>The W Connection</h3>
-					</div>
-					<div class="work-description">
-						<p>
-							The W Connection provides peer-to-peer emotional support from women of all ages who understand what it means to lose a spouse.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Located, diagnosed, and debugged errors in PHP code. Designed and built donation page with Paypal integration.
-						</p>
-						<p>
-							<strong>Relevant Skills:</strong> PHP, HTML5, CSS3, Sketch, Wordpress, Paypal integration, Constant Contact, SEO
-						</p>
-						<!-- modal trigger -->
-						<p id="w-connection-trigger">Preview</p>
-
-						<!--   Modal  -->
-						<div id="w-connection-modal" class="modal">
-
-							<span class="close">&times;</span>
-
-							<img class="modal-screenshot" id="w-connection-splashpage" src="assets/images/w-connection-splashpage.png">
-
-							<div id="w-connection-caption">
-								 Located, diagnosed, and debugged errors in PHP code. Designed and built donation page with Paypal integration.
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-
-				<!-- Geller Coaching -->
-				<div class="work-teaser">
-
-					<div class="col-1-3">
-						<h3>Geller Coaching</h3>
-					</div>
-					<div class="work-description">
-						<p>
-							Geller Coaching has an intuitive style of coaching that enables individuals to attain the success they are capable of achieving,
-							by identifying obstacles and strengths to redefine what is possible.
-						</p>
-						<p>
-							<strong>My Contribution:</strong> Redesigned website and created a custom WordPress theme.
-						</p>
-						<p>
-							<strong>Relevant Skills:</strong> Wordpress Theme Development, PHP, CSS3, Constant Contact integration
-						</p>
-						<!-- modal trigger -->
-						<p id="geller-coaching-trigger">Preview</p>
-
-						<!--   Modal  -->
-						<div id="geller-coaching-modal" class="modal">
-
-							<span class="close">&times;</span>
-
-							<img class="modal-screenshot" id="geller-coaching-splashpage" src="assets/images/geller-coaching-splashpage.png">
-
-							<div id="geller-coaching-caption">
-								Redesigned website and created a custom WordPress theme.
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-
-		</section>
-
-		<!-- 			contact me 				-->
-		<footer>
-
-			<h2 class="section-title-contact"><span>contact me</span></h2>
-			<div class="contact-items">
-				<p><strong class="contact-label">email: </strong>colleenhigginsdesigns@gmail.com</p>
-				<p><strong class="contact-label">phone: </strong>(631) 629-5306</p>
+        <div class="work-description">
+          <p>
+						ZevRoss Spatial Analysis specializes in data science and machine learning;
+						development of interactive data applications with a special emphasis on web mapping;
+						spatial analysis and mapping; and programming solutions in R, Python, SQL and JavaScript.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Built rich web interfaces for data analysis solutions.
+          </p>
+          <a
+            href="http://www and site link.zevross.com"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
+        </div>
 			</div>
 
-		</footer>
+      <!-- 		Breakthrough		-->
 
-	</body>
+      <div class="work-teaser">
+        <div class="col-1-3">
+					<h3>Breakthrough Greater Boston</h3>
+        </div>
 
-	<script src="assets/js/landing.js"></script>
+        <div class="work-description">
+          <p>
+            Breakthrough Greater Boston prepares low-income students for success
+            in college and trains the next generation of urban teachers using a
+            unique Students Teaching Students model.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Migrated original website to a new
+            platform and integrated content with new designs and layouts, based
+            on template provided.
+          </p>
+          <!-- modal trigger -->
+          <p id="breakthrough-gb-trigger" class="trigger">Preview</p>
+          <a
+            href="http://www and site link.breakthroughgreaterboston.org"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
 
+          <!--   Modal  -->
+          <div id="breakthrough-gb-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="breakthrough-gb-splashpage"
+              src="assets/images/breakthrough-gb-splashpage.png"
+            />
+
+            <div id="breakthrough-gb-caption" class="caption">
+              Migrated original website to a new platform and integrated content
+              with new designs and layouts, based on template provided.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 		W Connection		-->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <h3>The W Connection</h3>
+        </div>
+        <div class="work-description">
+          <p>
+            The W Connection provides peer-to-peer emotional support from women
+            of all ages who understand what it means to lose a spouse.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Located, diagnosed, and debugged
+            errors in PHP code.
+          </p>
+          <!-- modal trigger and site link -->
+          <p id="w-connection-trigger" class="trigger">Preview</p>
+          <a
+            href="https://widowsconnection.org"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
+
+          <!--   Modal  -->
+          <div id="w-connection-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="w-connection-splashpage"
+              src="assets/images/w-connection-splashpage.png"
+            />
+
+            <div id="w-connection-caption" class="caption">
+              Located, diagnosed, and debugged errors in PHP code.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Geller Coaching -->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <h3>Geller Coaching</h3>
+        </div>
+        <div class="work-description">
+          <p>
+            Geller Coaching has an intuitive style of coaching that enables
+            individuals to attain the success they are capable of achieving, by
+            identifying obstacles and strengths to redefine what is possible.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Redesigned website and created a
+            custom WordPress theme.
+          </p>
+          <p>
+            and site link <strong>Relevant Skills:</strong> Wordpress Theme
+            Development, PHP, CSS3, Constant Contact integration
+          </p>
+          <!-- modal trigger -->
+          <p id="geller-coaching-trigger" class="trigger">Preview</p>
+          <a href="https://gellercoaching.com" target="blank" class="site-link"
+            >Go To Website</a
+          >
+
+          <!--   Modal  -->
+          <div id="geller-coaching-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="geller-coaching-splashpage"
+              src="assets/images/geller-coaching-splashpage.png"
+            />
+
+            <div id="geller-coaching-caption" class="caption">
+              Redesigned website and created a custom WordPress theme.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-teaser">
+        <div class="subsection-left"></div>
+        <h3 class="subsection-title"><span>personal projects</span></h3>
+      </div>
+
+       <!-- Knitify -->
+       <div class="work-teaser">
+          <div class="col-1-3">
+						<h3>Knitify</h3>
+          </div>
+          <div class="work-description">
+
+            <p>
+              Knitify is a tool that helps users create their own fair isle style
+              knitting patterns based on an image. It takes an image along with
+              the yarn weight and desired finished width and provides a custom
+              knitting pattern and instructions. Served on Flask with Jinja's
+              templating language.
+            </p>
+            <p>
+              <strong>My Contribution:</strong> Used Clarify API and Pillow
+              library to pixelate an image based on dominant colors and translate
+              to written knitting instructions.
+            </p>
+            <p><strong>Relevant Skills:</strong> Python, Flask, Jinja, CSS</p>
+            <!-- modal trigger -->
+            <p id="knitify-trigger" class="trigger">Preview</p>
+            <a
+              href="https://knitify.herokuapp.com"
+              target="blank"
+              class="site-link"
+              >Go To Website</a
+            >
+
+            <!--   Modal  -->
+            <div id="knitify-modal" class="modal">
+              <span class="close">&times;</span>
+
+              <img
+                class="modal-screenshot"
+                id="knitify-splashpage"
+                src="assets/images/knitify-splashpage.png"
+              />
+
+              <div id="knitify-caption" class="caption">
+                Used Clarify API and Pillow library to pixelate an image based on
+                dominant colors and translate to written knitting instructions.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Color I Sing -->
+      <div class="work-teaser">
+        <div class="col-1-3">
+					<h3>Color I Sing</h3>
+        </div>
+        <div class="work-description">
+          <p>
+            Color I Sing is a digital coloring book that lets your voice be the
+            paint brush. Using the Web Audio and Canvas APIs, this program
+            analyses your voice and colors in the page based on the notes you
+            sing. Users can then share their creations via social media or save
+            them to their account.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Wrote underlying sound analysis
+            and coloring algorithms, acted as Project Manager
+          </p>
+          <p>
+            <strong>Relevant Skills:</strong> JavaScript, React, Redux, Express,
+            CSS, Python
+          </p>
+          <!-- modal trigger -->
+          <p id="color-i-sing-trigger" class="trigger">Preview</p>
+          <a
+            href="https://colorising.herokuapp.com"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
+
+          <!--   Modal  -->
+          <div id="color-i-sing-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="color-i-sing-splashpage"
+              src="assets/images/color-i-sing-splashpage.png"
+            />
+
+            <div id="color-i-sing-caption" class="caption">
+              Wrote underlying sound analysis and coloring algorithms, acted as
+              Project Manager
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- From Me to You -->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <h3>From Me To You</h3>
+        </div>
+        <div class="work-description">
+          <p>
+            From Me To You is an e-commerce site where shoppers can browse care
+            packages, edit cart quantity, and checkout as guests or logged in
+            users with a persistent cart.
+          </p>
+          <p>
+            <strong>My Contribution:</strong> Implemented local storage based
+            cart and checkout flow with Material UI elements. Contributed to
+            backend API development and database schema design.
+          </p>
+          and site link
+          <p>
+            <strong>Relevant Skills:</strong> Express, Sequelize, React, Redux,
+            Material UI
+          </p>
+          <!-- modal trigger -->
+          <p id="from-me-to-you-trigger" class="trigger">Preview</p>
+          <a
+            href="https://from-me-to-you.herokuapp.com"
+            target="blank"
+            class="site-link"
+            >Go To Website</a
+          >
+
+          <!--   Modal  -->
+          <div id="from-me-to-you-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="from-me-to-you-splashpage"
+              src="assets/images/from-me-to-you-splashpage.png"
+            />
+
+            <div id="from-me-to-you-caption" class="caption">
+              Implemented local storage based cart and checkout flow with
+              Material UI elements. Contributed to backend API development and
+              database schema design.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 		Knitted Joys 		-->
+      <div class="work-teaser">
+        <div class="col-1-3">
+          <h3>Knitted Joys</h3>
+        </div>
+        <div class="work-description knitted-joys">
+          <p>
+            <strong>My Contribution:</strong> Designed and built a prototype
+            website for selling knit goods and patterns.
+          </p>
+          <!-- modal trigger -->
+          <p id="knitted-joys-trigger" class="trigger">Preview</p>
+
+          <!--   Modal  -->
+          <div id="knitted-joys-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <img
+              class="modal-screenshot"
+              id="knitted-joys-splashpage"
+              src="assets/images/knitted-joys-splashpage.png"
+              alt="screenshot of the landing page for Knitted Joys"
+            />
+
+            <div id="knitted-joys-caption" class="caption">
+              Designed and built a prototype website for selling knit goods and
+              patterns.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 			contact me 				-->
+    <footer>
+      <h2 class="section-title-contact"><span>contact me</span></h2>
+      <div class="contact-items">
+        <p>
+          <strong class="contact-label">email: </strong
+          >colleenjoyhiggins@gmail.com
+        </p>
+        <p><strong class="contact-label">phone: </strong>(631) 629-5306</p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="assets/js/landing.js"></script>
 </html>
